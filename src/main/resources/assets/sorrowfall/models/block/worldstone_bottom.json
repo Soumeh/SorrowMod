@@ -1,0 +1,97 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "sorrowfall:block/worldstone",
+		"worldstone": "sorrowfall:block/worldstone"
+	},
+	"elements": [
+		{
+			"name": "bot1",
+			"from": [0, 0, 0],
+			"to": [16, 3, 16],
+			"faces": {
+				"north": {"uv": [4, 0, 8, 0.75], "texture": "#worldstone"},
+				"east": {"uv": [4, 0, 8, 0.75], "texture": "#worldstone"},
+				"south": {"uv": [4, 0, 8, 0.75], "texture": "#worldstone"},
+				"west": {"uv": [4, 0, 8, 0.75], "texture": "#worldstone"},
+				"up": {"uv": [4, 4, 0, 0], "texture": "#worldstone"},
+				"down": {"uv": [4, 0, 0, 4], "texture": "#worldstone"}
+			}
+		},
+		{
+			"name": "bot2",
+			"from": [1, 3, 1],
+			"to": [15, 6, 15],
+			"faces": {
+				"north": {"uv": [3.5, 4, 7, 4.75], "texture": "#worldstone"},
+				"east": {"uv": [3.5, 4, 7, 4.75], "texture": "#worldstone"},
+				"south": {"uv": [3.5, 4, 7, 4.75], "texture": "#worldstone"},
+				"west": {"uv": [3.5, 4, 7, 4.75], "texture": "#worldstone"},
+				"up": {"uv": [3.5, 7.5, 0, 4], "texture": "#worldstone"},
+				"down": {"uv": [0, 4, 3.5, 7.5], "texture": "#worldstone"}
+			}
+		},
+		{
+			"name": "bot3",
+			"from": [2, 6, 2],
+			"to": [14, 8, 14],
+			"faces": {
+				"north": {"uv": [3, 7.5, 6, 8], "texture": "#worldstone"},
+				"east": {"uv": [3, 7.5, 6, 8], "texture": "#worldstone"},
+				"south": {"uv": [3, 7.5, 6, 8], "texture": "#worldstone"},
+				"west": {"uv": [3, 7.5, 6, 8], "texture": "#worldstone"},
+				"up": {"uv": [3, 10.5, 0, 7.5], "texture": "#worldstone"},
+				"down": {"uv": [0, 7.5, 3, 10.5], "texture": "#worldstone"}
+			}
+		},
+		{
+			"name": "mid",
+			"from": [3, 8, 3],
+			"to": [13, 16, 13],
+			"faces": {
+				"north": {"uv": [5, 12, 7.5, 14], "texture": "#worldstone"},
+				"east": {"uv": [2.5, 12, 5, 14], "texture": "#worldstone"},
+				"south": {"uv": [10, 12, 12.5, 14], "texture": "#worldstone"},
+				"west": {"uv": [7.5, 12, 10, 14], "texture": "#worldstone"},
+				"down": {"uv": [0, 10.5, 2.5, 13], "rotation": 270, "texture": "#worldstone"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, -135, 0],
+			"translation": [0, -2.5, 0],
+			"scale": [0.44, 0.44, 0.44]
+		},
+		"head": {
+			"translation": [0, -30.5, 0],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"fixed": {
+			"translation": [0, -3.5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

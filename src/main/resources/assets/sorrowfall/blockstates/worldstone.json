@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=upper": { "model": "sorrowfall:block/worldstone_top" },
+		"half=lower": { "model": "sorrowfall:block/worldstone_bottom" }
+    }
+}

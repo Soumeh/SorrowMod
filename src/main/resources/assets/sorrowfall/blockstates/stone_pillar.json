@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y": { "model": "sorrowfall:block/stone_pillar" },
+        "axis=z": { "model": "sorrowfall:block/stone_pillar", "x": 90 },
+        "axis=x": { "model": "sorrowfall:block/stone_pillar", "x": 90, "y": 90 }
+    }
+}
