@@ -8,7 +8,7 @@ import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.minecraft.client.options.KeyBinding;
 import net.minecraft.client.util.InputUtil;
 
-public class SitCommand implements ClientModInitializer  {
+public class Sit implements ClientModInitializer  {
 
 	@Override
 	public void onInitializeClient() {
