@@ -6,7 +6,7 @@
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "ChatEmotes"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -4,10 +4,12 @@ import java.util.Map.Entry;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.block.Block;
+import net.minecraft.entity.Entity;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import soumeh.sorrowfall.blocks.Blocks;
+import soumeh.sorrowfall.entities.Entities;
 import soumeh.sorrowfall.items.Items;
 
 public class MainMod implements ModInitializer {
@@ -27,6 +29,9 @@ public class MainMod implements ModInitializer {
 			Registry.register(Registry.ITEM, new Identifier("sorrowfall", entry.getKey()), entry.getValue());
 		}
 
+		//for(Entry<String, Entity> entry : Entities.ENTITIES.entrySet()) {
+		//	  Registry.register(Registry.ENTITY_TYPE, new Identifier("sorrowfall", entry.getKey()), null);
+		//}
 	}
 
 }

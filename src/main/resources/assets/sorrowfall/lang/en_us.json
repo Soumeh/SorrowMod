@@ -2,8 +2,29 @@
 	"item.sorrowfall.crafting_tablet": "Crafting Tablet",
 	"item.sorrowfall.ruby": "Ruby",
 	"item.sorrowfall.keystone": "Keystone",
+	"item.sorrowfall.banjo": "Banjo",
+
 	"block.sorrowfall.worldstone": "Worldstone",
 	"block.sorrowfall.stone_pillar": "Stone Pillar",
+
 	"category.sorrowfall.macros": "Command Macros",
-	"key.sorrowfall.sit": "Sit"
+	"key.sorrowfall.sit": "Sit",
+
+	"subtitle.sorrowfall.bonk": "Bonk!",
+
+	"subtitle.sorrowfall.item.instrument.play": "Instrument plays",
+	"subtitle.sorrowfall.item.war_horn.use": "War Horn signals",
+	"subtitle.sorrowfall.item.ice_rod.use": "Ice Rod chimes",
+	"subtitle.sorrowfall.item.keystone.use": "Keystone activates",
+	"subtitle.sorrowfall.item.bag.open": "Bag opens",
+	"subtitle.sorrowfall.item.bag.close": "Bag closes",
+
+	"subtitle.sorrowfall.block.worldstone.discover": "Worldstone discovered",
+	"subtitle.sorrowfall.block.worldstone.activate": "Worldstone activates",
+	"subtitle.sorrowfall.block.spawner.spawn": "Spawner ignites",
+	"subtitle.sorrowfall.block.wood.knock": "Soft knock",
+	"subtitle.sorrowfall.block.metal.knock": "Hard knock",
+
+	"subtitle.sorrowfall.entity.eat": "Eating",
+	"subtitle.sorrowfall.entity.drink": "Sipping"
 }

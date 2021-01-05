@@ -8,15 +8,15 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
 
-public class Crafting_Tablet extends Item {
+public class Crafting_Tablet extends BaseItem {
 
-	public Crafting_Tablet(Item.Settings settings) {
-		super(settings);
+	public Crafting_Tablet(String name, Settings settings) {
+		super(name, settings);
 	}
 
 	@Override
 	public TypedActionResult<ItemStack> use(World world, PlayerEntity player, Hand hand) {
-		ItemStack itemstack = player.getStackInHand(hand);
-		return new TypedActionResult<ItemStack>(ActionResult.SUCCESS, itemstack);
+		ItemStack item = player.getStackInHand(hand);
+		return TypedActionResult.success(item);
 	}
 }
