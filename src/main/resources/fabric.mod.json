@@ -18,7 +18,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "soumeh.sorrowfall.MainMod"
+      "soumeh.sorrowfall.ModInit"
+    ],
+    "client": [
+      "soumeh.sorrowfall.ClientModInit"
     ]
   },
   "mixins": [

@@ -1,114 +1,50 @@
 {
+
   "bonk": {
-    "subtitles": "subtitle.sorrowfall.bonk",
-    "sounds": [
-      "sorrowfall:misc/bonk"
-    ]
+    "category": "neutral",
+    "subtitle": "subtitle.bonk",
+    "sounds": [ "sorrowfall:misc/bonk" ]
   },
-  "block.note_block.slap_bass": {
-    "subtitles": "subtitle.sorrowfall.item.instrument.play",
-    "sounds": [
-      "sorrowfall:instrument/slap_bass"
-    ]
+
+  "item.bow_pull_start": {
+    "category": "neutral",
+    "subtitle": "subtitle.bow_pull",
+    "sounds": [ "sorrowfall:item/bow/pull_start" ]
   },
-  "block.note_block.cymbal_hi-hat": {
-    "subtitles": "subtitle.sorrowfall.item.instrument.play",
-    "sounds": [
-      "sorrowfall:instrument/cymbal_hi-hat"
-    ]
-  },
-  "block.note_block.cymbal_splash": {
-    "subtitles": "subtitle.sorrowfall.item.instrument.play",
-    "sounds": [
-      "sorrowfall:instrument/cymbal_splash"
-    ]
-  },
-  "block.note_block.timpani": {
-    "subtitles": "subtitle.sorrowfall.item.instrument.play",
-    "sounds": [
-      "sorrowfall:instrument/timpani"
-    ]
-  },
-  "block.note_block.harpsichord": {
-    "subtitles": "subtitle.sorrowfall.item.instrument.play",
-    "sounds": [
-      "sorrowfall:instrument/harpsichord"
-    ]
-  },
-  "block.note_block.vibraphone": {
-    "subtitles": "subtitle.sorrowfall.item.instrument.play",
-    "sounds": [
-      "sorrowfall:instrument/vibraphone"
-    ]
-  },
-  "block.note_block.piano": {
-    "subtitles": "subtitle.sorrowfall.item.instrument.play",
-    "sounds": [
-      "sorrowfall:instrument/piano"
-    ]
-  },
-  "block.note_block.marimba": {
-    "subtitles": "subtitle.sorrowfall.item.instrument.play",
-    "sounds": [
-      "sorrowfall:instrument/marimba"
-    ]
-  },
-  "block.note_block.celesta": {
-    "subtitles": "subtitle.sorrowfall.item.instrument.play",
-    "sounds": [
-      "sorrowfall:instrument/celesta"
-    ]
-  },
-  "block.note_block.sitar": {
-    "subtitles": "subtitle.sorrowfall.item.instrument.play",
-    "sounds": [
-      "sorrowfall:instrument/sitar"
-    ]
-  },
-  "block.note_block.music_box": {
-    "subtitles": "subtitle.sorrowfall.item.instrument.play",
-    "sounds": [
-      "sorrowfall:instrument/music_box"
-    ]
-  },
-  "block.note_block.glockenspiel": {
-    "subtitles": "subtitle.sorrowfall.item.instrument.play",
-    "sounds": [
-      "sorrowfall:instrument/glockenspiel"
-    ]
+  "item.bow_pull_middle": {
+    "category": "neutral",
+    "subtitle": "subtitle.bow_pull",
+    "sounds": [ "sorrowfall:item/bow/pull_middle" ]
   },
   "item.war_horn": {
-    "subtitles": "subtitle.sorrowfall.item.war_horn.use",
-    "sounds": [
-      "sorrowfall:item/war_horn"
-    ]
+    "category": "neutral",
+    "subtitle": "subtitle.item.war_horn.use",
+    "sounds": [ "sorrowfall:item/war_horn" ]
   },
   "item.ice_rod.use": {
-    "subtitles": "subtitle.sorrowfall.item.ice_rod.use",
-	"sounds": [
-	  "sorrowfall:item/ice_rod.use"
-	]
+    "category": "neutral",
+    "subtitle": "subtitle.item.ice_rod.use",
+	"sounds": [ "sorrowfall:item/ice_rod.use" ]
   },
   "item.keystone.use": {
-    "subtitles": "subtitle.sorrowfall.item.ice_rod.use",
-    "sounds": [
-      "sorrowfall:item/keystone.use"
-    ]
+    "category": "neutral",
+    "subtitle": "subtitle.item.ice_rod.use",
+    "sounds": [ "sorrowfall:item/keystone.use" ]
   },
   "item.bag.open": {
-    "subtitles": "subtitle.sorrowfall.item.bag.open",
-    "sounds": [
-      "sorrowfall:item/bag.open"
-    ]
+    "category": "neutral",
+    "subtitle": "subtitle.item.bag.open",
+    "sounds": [ "sorrowfall:item/bag.open" ]
   },
   "item.bag.close": {
-    "subtitles": "subtitle.sorrowfall.item.bag.close",
-    "sounds": [
-      "sorrowfall:item/bag.close"
-    ]
+    "category": "neutral",
+    "subtitle": "subtitle.item.bag.close",
+    "sounds": [ "sorrowfall:item/bag.close" ]
   },
+
   "entity.eat": {
-    "subtitles": "subtitle.sorrowfall.entity.eat",
+    "category": "player",
+    "subtitle": "subtitle.entity.eat",
     "sounds": [
       "sorrowfall:misc/eat1",
       "sorrowfall:misc/eat2",
@@ -116,39 +52,34 @@
     ]
   },
   "entity.drink": {
-    "subtitles": "subtitle.sorrowfall.entity.drink",
-    "sounds": [
-      "sorrowfall:misc/drink"
-    ]
+    "category": "player",
+    "subtitle": "subtitle.entity.drink",
+    "sounds": [ "sorrowfall:misc/drink" ]
   },
+
   "block.wood.knock": {
-    "subtitles": "subtitle.sorrowfall.block.wood.knock",
-    "sounds": [
-      "sorrowfall:block/wood.knock"
-    ]
+    "category": "block",
+    "subtitle": "subtitle.block.wood.knock",
+    "sounds": [ "sorrowfall:block/wood.knock" ]
   },
   "block.metal.knock": {
-    "subtitles": "subtitle.sorrowfall.block.metal.knock",
-    "sounds": [
-      "sorrowfall:block/metal.knock"
-    ]
+    "category": "block",
+    "subtitle": "subtitle.block.metal.knock",
+    "sounds": [ "sorrowfall:block/metal.knock" ]
   },
   "block.waystone.discover": {
-    "subtitles": "subtitle.sorrowfall.block.worldstone.discover",
-    "sounds": [
-      "sorrowfall:block/waystone.discover"
-    ]
+    "category": "block",
+    "subtitle": "subtitle.block.worldstone.discover",
+    "sounds": [ "sorrowfall:block/waystone.discover" ]
   },
   "block.waystone.activate": {
-    "subtitles": "subtitle.sorrowfall.block.worldstone.activate",
-    "sounds": [
-      "sorrowfall:block/waystone.activated"
-    ]
+    "category": "block",
+    "subtitle": "subtitle.block.worldstone.activate",
+    "sounds": [ "sorrowfall:block/waystone.activated" ]
   },
   "block.spawner.spawn": {
-    "subtitles": "subtitle.sorrowfall.block.spawner.spawn",
-    "sounds": [
-      "sorrowfall:block/spawner.spawn"
-    ]
+    "category": "block",
+    "subtitle": "subtitle.block.spawner.spawn",
+    "sounds": [ "sorrowfall:block/spawner.spawn" ]
   }
 }

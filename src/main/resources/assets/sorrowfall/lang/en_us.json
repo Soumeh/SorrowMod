@@ -1,4 +1,5 @@
 {
+
 	"item.sorrowfall.crafting_tablet": "Crafting Tablet",
 	"item.sorrowfall.ruby": "Ruby",
 	"item.sorrowfall.keystone": "Keystone",
@@ -7,11 +8,12 @@
 	"block.sorrowfall.worldstone": "Worldstone",
 	"block.sorrowfall.stone_pillar": "Stone Pillar",
 
-	"category.sorrowfall.macros": "Command Macros",
+	"category.sorrowfall.roleplay": "Roleplay",
 	"key.sorrowfall.sit": "Sit",
 
 	"subtitle.sorrowfall.bonk": "Bonk!",
 
+    "subtitle.sorrowfall.bow_pull": "Bow pulled",
 	"subtitle.sorrowfall.item.instrument.play": "Instrument plays",
 	"subtitle.sorrowfall.item.war_horn.use": "War Horn signals",
 	"subtitle.sorrowfall.item.ice_rod.use": "Ice Rod chimes",
@@ -27,4 +29,5 @@
 
 	"subtitle.sorrowfall.entity.eat": "Eating",
 	"subtitle.sorrowfall.entity.drink": "Sipping"
+
 }

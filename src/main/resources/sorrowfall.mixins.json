@@ -4,9 +4,13 @@
   "package": "soumeh.sorrowfall.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "UnsitMixin"
   ],
   "client": [
-    "ChatEmotes"
+
+  ],
+  "server": [
+    "UnsitMixin"
   ],
   "injectors": {
     "defaultRequire": 1
